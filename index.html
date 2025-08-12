@@ -13,6 +13,9 @@
 </head>
 
 <body>
+   <div id="splash-screen">
+  <h1 class="welcome-text">Welcome</h1>
+</div>
   <nav>
     <img src="./assets/images/logopng.png" alt="Logo">
     <input type="checkbox" id="click">
@@ -647,6 +650,12 @@
 
   </script>
 
+
+<script>
+  setTimeout(() => {
+    document.querySelector('.main-content').style.display = 'block';
+  }, 8000); // 2s delay + 3s fade
+</script>
 </body>
 
 </html>
